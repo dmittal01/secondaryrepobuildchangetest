@@ -8,6 +8,12 @@ trigger:
  
 resources:
   repositories:
+  - repository: rp3test
+    type: git
+    name: rp3
+    ref: main
+    trigger:
+    - main
   - repository: rp2
     type: github
     endpoint: github.com_dmittal01
@@ -15,12 +21,7 @@ resources:
     ref: main
     trigger:
     - main
-  - repository: rp3test
-    type: git
-    name: rp3
-    ref: main
-    trigger:
-    - main
+
 
 pool:
   vmImage: 'ubuntu-latest'
