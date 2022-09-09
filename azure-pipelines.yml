@@ -19,9 +19,6 @@ resources:
     endpoint: github.com_dmittal01
     name: dmittal01/mappingcheck
     ref: main
-    trigger:
-    - main
-
 
 pool:
   vmImage: 'ubuntu-latest'
