@@ -15,6 +15,12 @@ resources:
     ref: main
     trigger:
     - main
+  - repository: rp3
+    type: git
+    name: rp3
+    ref: main
+    trigger:
+    - main
 
 pool:
   vmImage: 'ubuntu-latest'
