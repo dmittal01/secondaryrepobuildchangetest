@@ -15,7 +15,7 @@ resources:
     ref: main
     trigger:
     - main
-  - repository: rp3
+  - repository: rp3test
     type: git
     name: rp3
     ref: main
@@ -28,5 +28,5 @@ pool:
 steps:
 - checkout: self
 - checkout: rp2
-- checkout: rp3
+- checkout: rp3test
 
