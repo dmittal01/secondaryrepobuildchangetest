@@ -28,4 +28,5 @@ pool:
 steps:
 - checkout: self
 - checkout: rp2
+- checkout: rp3
 
